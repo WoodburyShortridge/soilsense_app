@@ -1,76 +1,26 @@
 {
-  "name": "Soilsense-UI",
-  "version": "0.1.0",
-  "description": "Stating Dashboard solution with ReactJS",
-  "license": "MIT",
-  "engines": {
-    "node": "4.x"
-  },
+  "name": "soilsense_app",
+  "version": "1.0.0",
+  "description": "data visulize",
+  "main": "server.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack -p --config webpack.config.js",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server -d --inline --hot --progress --no-info",
-    "lint": "eslint .",
-    "start": "cross-env NODE_ENV=production node server/node-server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "autoprefixer": "^6.3.3",
-    "autoprefixer-core": "^6.0.1",
-    "babel": "^6.5.2",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^6.0.2",
-    "babel-loader": "^6.2.1",
-    "babel-plugin-__coverage__": "^0.1111.1",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
-    "babel-register": "^6.26.0",
-    "cross-env": "^1.0.7",
-    "css-loader": "^0.23.0",
-    "es5-shim": "^4.5.12",
-    "es6-promise": "^3.1.2",
-    "es6-shim": "^0.35.0",
-    "eslint": "2.7.0",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-react": "^4.2.0",
-    "express": "^4.16.3",
-    "file-loader": "^0.8.4",
-    "html-webpack-plugin": "^2.30.1",
-    "http-proxy": "^1.17.0",
-    "json-loader": "^0.5.7",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
-    "react-hot-loader": "^1.3.0",
-    "react-router-redux": "^4.0.0",
-    "source-map-loader": "^0.1.5",
-    "style-loader": "^0.13.0",
-    "stylelint": "^5.2.1",
-    "url-loader": "^0.5.6",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.14.1",
-    "webpack-hot-middleware": "^2.24.2",
-    "winston": "^2.4.4"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.6",
-    "chart.js": "^1.1.1",
-    "font-awesome-webpack": "0.0.4",
-    "helmet": "^1.1.0",
-    "react-chartjs": "^0.7.3",
-    "react-dazzle": "^1.2.6",
-    "react-modal": "^1.1.1"
-  },
-  "keywords": [
-    "react",
-    "redux",
-    "starter",
-    "seed"
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rangle/react-redux-starter.git"
+    "url": "git+https://github.com/WoodburyShortridge/soilsense_app.git"
   },
+  "keywords": [
+    "soil"
+  ],
+  "author": "woody",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rangle/rangle-starter/issues"
+    "url": "https://github.com/WoodburyShortridge/soilsense_app/issues"
+  },
+  "homepage": "https://github.com/WoodburyShortridge/soilsense_app#readme",
+  "dependencies": {
+    "@cloudant/cloudant": "^2.4.0",
+    "express": "^4.16.4"
   }
 }
